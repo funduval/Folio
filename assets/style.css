@@ -27,16 +27,16 @@ footer {
     font-size: 12px;
     margin-left: auto;
     margin-right: auto;
-    border-top: #4aaaa5;
+    /*border-top: #4aaaa5;
     border-top-width: 8px;
-    border-top-style: solid;
+    border-top-style: solid;*/
 }
 
 h1 {
 
     display: inline-block;
     margin-left: 16%;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 0px;
     line-height: 28px;
     padding: 14px;
@@ -55,8 +55,9 @@ h2 {
 
 #mainBody {
     position: relative;
-  margin-left: 13%;
- margin-top:0px;
+  margin: auto;
+
+
     /* bottom = footer height */
     width: 960px;
     height: 630px;
@@ -103,11 +104,17 @@ z-index: 1;
     width: 65%;
     height: 83%;
     margin-left: 5%;
-    margin-top: 4%;
+    margin-top: 2%;
     color: #777777;
     border-color: #dddddd;
     border-width: 2px;
     border-style: solid;
+}
+
+.headshot {
+
+    margin-top:24px;
+    width:200px;
 }
 
 h5{
@@ -154,8 +161,8 @@ h5{
     padding: 0;
     background-color: white;
     width: 22%;
-    height: 300px;
-    margin-top: 100px;
+    height: 500px;
+    margin-top: 40px;
     margin-right: 30px;
     border-color: #dddddd;
     border-width: 2px;
@@ -372,22 +379,23 @@ canvas {
 
 @media screen and (max-width: 768px) {
     body {
-        background-image: url("../assets/images/asanoha-400px.png");
-        max-width: 740px;
+       
+        max-width: 768px;
+        position:relative;
     }
 
     html {
 
-        max-width: 760px;
+        max-width: 768px;
     }
     
     #mainContent {
-        background-image: url("../assets/images/asanoha-400px.png");
+      /*  background-image: url("../assets/images/asanoha-400px.png");*/
         background-color: black;
         height: 1200px;
-        width: 66%;
+        width: 78%;
        margin-left:6%;
-       border-width: 14px;
+       border-width: 14px; padding-left: 0px;
      
     }
 
@@ -396,7 +404,10 @@ canvas {
         visibility: hidden;
     }
     #mainBody {
-        width: 70%;
+        width: 80%;
+        margin-left:10%;
+        
+
         
       
        
@@ -417,29 +428,31 @@ canvas {
     }
 
     h1 {
-        margin-left: 19%;
+        margin-left: 18%;
         display: block;
         max-width: 230px;
-        text-align: center;
+        text-align: center;s
     }
     h2{
 
         float:left;
-        margin-left: 20%
+        margin-left: 26%
     }
     
     footer {
         width: 140%;
         margin-left: -60px;
       
-        bottom: -970px;
+        bottom: -1410px;
         text-align: center;
     }
     #sidebar {
-        clear: left;
-        height: 20%;
-        width: 60%;
-        margin-left: 14%;
+        display: block;
+        position: absolute;
+        bottom: -1090px;
+        height: 215px;
+        width: 80%;
+        margin-left: 8%;
         margin-top: 40px;
         padding: 10px 20px 40px 20px;
     }
