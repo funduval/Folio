@@ -10,6 +10,8 @@ body {
     margin: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
     font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    width: 100%;
 }
 
 footer {
@@ -362,29 +364,38 @@ canvas {
     border-radius: 0 0 3px 3px;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
     body {
-        min-width: 100%;
+      
         position: relative;
+      
+       
     }
+
     html {
-        max-width: 768px;
-    }
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+}
+    
+    
     #mainContent {
-        /*  background-image: url("../assets/images/asanoha-400px.png");*/
-        background-color: black;
-        height: 1200px;
-        width: 78%;
-        margin-left: 10%;
-        border-width: 14px;
+  background: url("../assets/images/grey_wash_wall.png");    
+        height: 540px;
+        width: 100%;
+        margin:auto;
+        border-width: 24px;
         padding-left: 0px;
     }
     hr {
         visibility: hidden;
     }
     #mainBody {
-        width: 80%;
-        margin:auto;
+        width: 70%;
+        height: 1010px;
+        margin-left:8%;
+        border: hidden;
     }
     #headerMenu {
         position: absolute;
@@ -402,26 +413,272 @@ canvas {
         display: block;
         max-width: 230px;
         text-align: center;
-        s
+        
     }
     h2 {
         float: left;
         margin-left: 26%
     }
     footer {
-        width: 140%;
+        width: 110%;
         margin-left: -60px;
-        bottom: -1410px;
+        bottom: 0px;
         text-align: center;
     }
+
+    
     #sidebar {
         display: block;
         position: absolute;
-        bottom: -1100px;
-        height: 224px;
-        width: 80%;
-        margin-left: 8%;
+        left:30%;
+        bottom:80px;
+        height: 300px;
+        width: 50%;
+      
+        margin-top: 94px;
+        padding-right: 18px;
+        padding-bottom: 18px;
+    }
+
+     #sidebarMenu {
+        display: block;
+        position: absolute;
+        width:280px;
+        left:0px;
+        bottom:-150px;
         margin-top: 44px;
-        padding: 10px 20px 40px 20px;
+        padding-left: 18px;
+        padding-bottom: 28px;
+        
+    }
+    .logoButtons{
+      clear: right;
+        height:15%;
+        width: 15%;
+      
+    }
+   
+
+    .headshot{
+        clear:right;
+        height:30%;
+        width: 30%;
+
+        margin-bottom:110px;
+    }
+
+
+   
+}
+
+
+@media screen and (max-width: 815px) {
+    body {
+      
+        position: relative;
+      
+       
+    }
+    
+    html {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+}
+    
+    
+    #mainContent {
+
+  background: url("../assets/images/grey_wash_wall.png");    
+        height: 1010px;
+        width: 100%;
+        margin:auto;
+        border-width: 24px;
+        padding-left: 0px;
+    }
+    hr {
+        visibility: hidden;
+    }
+     #mainBody {
+        width: 70%;
+        height: 1510px;
+        margin-left:8%;
+        border: hidden;
+    }
+    #headerMenu {
+        position: absolute;
+        z-index: 1;
+        display: block;
+        clear: left;
+        margin-left: 20%;
+    }
+    .placeholder {
+        float: left;
+        clear: left;
+    }
+    h1 {
+        margin-left: 18%;
+        display: block;
+        max-width: 230px;
+        text-align: center;
+        
+    }
+    h2 {
+        float: left;
+        margin-left: 26%
+    }
+    footer {
+        width: 110%;
+        margin-left: -60px;
+        bottom: 0px;
+        text-align: center;
+    }
+
+    
+    #sidebar {
+        display: block;
+        position: absolute;
+        left:30%;
+        bottom:100px;
+        height: 300px;
+        width: 45%;
+      
+        margin-top: 94px;
+        padding-right: 10px;
+         padding-left: 10px;
+        padding-bottom: 18px;
+    }
+    #sidebarMenu {
+        display: block;
+        position: absolute;
+        width:220px;
+       
+        bottom:-150px;
+        margin-top: 44px;
+        padding-left: 0px;
+        padding-bottom: 28px;
+        
+        
+    }
+    .logoButtons{
+      clear: left;
+        height:15%;
+        width: 15%;
+      
+    }
+   
+
+    .headshot{
+        clear:left;
+        height:30%;
+        width: 30%;
+
+        margin-bottom:110px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    body {
+      
+        position: relative;
+      
+       
+    }
+    
+    html {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+}
+    
+    
+    #mainContent {
+
+  background: url("../assets/images/grey_wash_wall.png");    
+        height: 1410px;
+        width: 100%;
+        margin:auto;
+        border-width: 24px;
+        padding-left: 0px;
+    }
+    hr {
+        visibility: hidden;
+    }
+     #mainBody {
+        width: 70%;
+        height: 1810px;
+        margin-left:8%;
+        border: hidden;
+    }
+    #headerMenu {
+        position: absolute;
+        z-index: 1;
+        display: block;
+        clear: left;
+        margin-left: 20%;
+    }
+    .placeholder {
+        float: left;
+        clear: left;
+    }
+    h1 {
+        margin-left: 18%;
+        display: block;
+        max-width: 230px;
+        text-align: center;
+        
+    }
+    h2 {
+        float: left;
+        margin-left: 26%
+    }
+    footer {
+        width: 118%;
+        margin-left: -40px;
+        bottom: 0px;
+        text-align: center;
+        }
+
+    
+    #sidebar {
+        display: block;
+        position: absolute;
+        left:20%;
+        bottom:55px;
+        height: 280px;
+        width: 70%;
+      
+        margin-top: 94px;
+        padding-right: 10px;
+         padding-left: 10px;
+        padding-bottom: 18px;
+    }
+    #sidebarMenu {
+        display: block;
+        position: absolute;
+        width:200px;
+       
+        bottom:-150px;
+        margin-top: 44px;
+        padding-left: 0px;
+        padding-bottom: 28px;
+        
+        
+    }
+    .logoButtons{
+      clear: left;
+        height:15%;
+        width: 15%;
+      
+    }
+   
+
+    .headshot{
+        clear:left;
+        height:30%;
+        width: 30%;
+
+        margin-bottom:110px;
+    }
+}
+
