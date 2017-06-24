@@ -1,15 +1,14 @@
 /* ---- reset ---- */
-html{
+
+html {
     position: relative;
     min-height: 100%;
     width: 100%;
 }
 
-
-
 body {
-  margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -33,7 +32,6 @@ footer {
 }
 
 h1 {
-
     display: inline-block;
     margin-left: 16%;
     margin-top: 1%;
@@ -41,31 +39,28 @@ h1 {
     line-height: 28px;
     padding: 14px;
     background: url("../assets/images/grey_wash_wall.png");
-
     color: white;
     font-style: bold;
     font-size: 28px;
 }
 
-
 h2 {
-
     text-align: center;
 }
 
 #mainBody {
     position: relative;
-  margin: auto;
-
-
+    margin: auto;
     /* bottom = footer height */
     width: 960px;
-    height: 630px;
+    height: 600px;
     padding: 0px;
-    background-image: url("../assets/images/asanoha-400px.png");
-    border-top-color: #dddddd;
-    border-top-width: 2px;
-    border-top-style: solid;
+    /*    background-image: url("../assets/images/asanoha-400px.png");
+*/
+    background-color: transparent;
+    border-color: #dddddd;
+    border-width: 32px;
+    border-style: solid;
 }
 
 .button {
@@ -95,16 +90,16 @@ h2 {
 }
 
 #mainContent {
-
-position: absolute;
-z-index: 1;
+    position: absolute;
+    z-index: 1;
     float: left;
     padding: 0px;
     background-color: white;
     width: 65%;
-    height: 83%;
+    height: 86%;
     margin-left: 5%;
-    margin-top: 2%;
+    margin-top: 28px;
+    margin-bottom: auto;
     color: #777777;
     border-color: #dddddd;
     border-width: 2px;
@@ -112,24 +107,20 @@ z-index: 1;
 }
 
 .headshot {
-
-    margin-top:24px;
-    width:200px;
+    margin-top: 24px;
+    width: 200px;
 }
 
-h5{
-
-     color:grey;
-     text-align: center;
-     line-height: 24px;
+h5 {
+    color: grey;
+    text-align: center;
+    line-height: 24px;
 }
 
 #sidebarMenu {
     list-style: none;
     padding: 0px;
-   
     text-align: center;
-
 }
 
 .logoButtons {
@@ -154,15 +145,14 @@ h5{
 }
 
 #sidebar {
-   
     display: inline;
     font-size: 18px;
     float: right;
     padding: 0;
     background-color: white;
     width: 22%;
-    height: 500px;
-    margin-top: 40px;
+    height: 480px;
+    margin-top: 28px;
     margin-right: 30px;
     border-color: #dddddd;
     border-width: 2px;
@@ -170,12 +160,11 @@ h5{
 }
 
 hr {
-  width: 84%;
+    width: 84%;
     margin-top: 4px;
     margin-bottom: 4px;
     padding: 0;
     color: #dddddd;
-
 }
 
 h2 {
@@ -189,7 +178,7 @@ h2 {
 
 h3 {
     margin-top: 17px;
-    margin-bottom: 9px;
+    margin-bottom: 7px;
     text-align: center;
     color: #4aaaa5;
 }
@@ -209,13 +198,16 @@ table {
     margin: 0;
 }
 
+
 .projectImage {
     height: 190px;
     width: 150px;
     padding: 8px;
-    margin: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-top: 0px;
     position: relative;
-
 }
 
 .projectButtons {
@@ -223,15 +215,11 @@ table {
     padding: 0;
     margin: 0;
     display: inline-block;
-   
-
 }
 
 .projectButtons:hover {
     opacity: 0.5;
 }
-
-
 
 #firstRow {
     padding: 0;
@@ -245,7 +233,7 @@ table {
 
 .banner {
     position: absolute;
-    bottom: 16px;
+    bottom: 12px;
     left: 16px;
     width: 130px;
     background: #4aaaa5;
@@ -308,141 +296,121 @@ textarea {
     color: white;
 }
 
-
-
-
 canvas {
-  display: block;
-  vertical-align: bottom;
+    display: block;
+    vertical-align: bottom;
 }
+
 
 /* ---- particles.js container ---- */
 
 #particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color:#4aaaa5;
- /* background-image: url("../assets/images/aclusteranda.jpg");*/
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #4aaaa5;
+    /* background-image: url("../assets/images/aclusteranda.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
 }
+
 
 /* ---- stats.js ---- */
 
-#minidiv{
- position: absolute;
- z-index: 1;
-  height:10%;
-  width:5%;
-  background-color: white;
-  text-align: center;
+#minidiv {
+    position: absolute;
+    z-index: 1;
+    height: 10%;
+    width: 5%;
+    background-color: white;
+    text-align: center;
 }
 
-.count-particles{
-  background: #000022;
-  position: absolute;
-
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
-.js-count-particles{
-  font-size: 1.1em;
+.js-count-particles {
+    font-size: 1.1em;
 }
 
 #stats,
-.count-particles{
-  -webkit-user-select: none;
+.count-particles {
+    -webkit-user-select: none;
 }
 
-#stats{
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
 }
 
-.count-particles{
-  border-radius: 0 0 3px 3px;
+.count-particles {
+    border-radius: 0 0 3px 3px;
 }
 
 @media screen and (max-width: 768px) {
     body {
-       
-        max-width: 768px;
-        position:relative;
+        max-width: 100%;
+        position: relative;
     }
-
     html {
-
-        max-width: 768px;
+        max-width: 100%;
     }
-    
     #mainContent {
-      /*  background-image: url("../assets/images/asanoha-400px.png");*/
+        /*  background-image: url("../assets/images/asanoha-400px.png");*/
         background-color: black;
         height: 1200px;
         width: 78%;
-       margin-left:6%;
-       border-width: 14px; padding-left: 0px;
-     
+        margin-left: 6%;
+        border-width: 14px;
+        padding-left: 0px;
     }
-
-    hr{
-
+    hr {
         visibility: hidden;
     }
     #mainBody {
         width: 80%;
-        margin-left:10%;
-        
-
-        
-      
-       
+        margin-left: 10%;
     }
     #headerMenu {
-        position:absolute;
+        position: absolute;
         z-index: 1;
         display: block;
-        clear:left;
+        clear: left;
         margin-left: 20%;
-        
     }
-
     .placeholder {
-
         float: left;
-        clear:left;
+        clear: left;
     }
-
     h1 {
         margin-left: 18%;
         display: block;
         max-width: 230px;
-        text-align: center;s
+        text-align: center;
+        s
     }
-    h2{
-
-        float:left;
+    h2 {
+        float: left;
         margin-left: 26%
     }
-    
     footer {
         width: 140%;
         margin-left: -60px;
-      
         bottom: -1410px;
         text-align: center;
     }
