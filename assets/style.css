@@ -472,7 +472,7 @@ canvas {
 }
 
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 850px) {
     body {
       
         position: relative;
@@ -500,7 +500,7 @@ canvas {
         visibility: hidden;
     }
      #mainBody {
-        width: 70%;
+        width: 74%;
         height: 1510px;
         margin-left:8%;
         border: hidden;
@@ -577,7 +577,7 @@ canvas {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 786px) {
     body {
       
         position: relative;
@@ -596,7 +596,7 @@ canvas {
 
   background: url("../assets/images/grey_wash_wall.png");    
         height: 1410px;
-        width: 100%;
+        width: 80%;
         margin:auto;
         border-width: 24px;
         padding-left: 0px;
@@ -607,7 +607,7 @@ canvas {
      #mainBody {
         width: 70%;
         height: 1810px;
-        margin-left:8%;
+        margin-left:auto;
         border: hidden;
     }
     #headerMenu {
@@ -620,6 +620,8 @@ canvas {
     .placeholder {
         float: left;
         clear: left;
+        margin-left: 0px;
+        padding-left: 8%;
     }
     h1 {
         margin-left: 18%;
@@ -630,7 +632,7 @@ canvas {
     }
     h2 {
         float: left;
-        margin-left: 26%
+        margin-left: 24%
     }
     footer {
         width: 118%;
@@ -643,7 +645,7 @@ canvas {
     #sidebar {
         display: block;
         position: absolute;
-        left:20%;
+        left:10%;
         bottom:55px;
         height: 280px;
         width: 70%;
