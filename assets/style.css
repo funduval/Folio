@@ -23,7 +23,7 @@ footer {
     width: 100%;
     padding-top: 18px;
     text-align: center;
-    background: url("../assets/images/grey_wash_wall.png");
+    background: url('../assets/images/grey_wash_wall.png');
     color: white;
     font-size: 12px;
     margin-left: auto;
@@ -40,7 +40,7 @@ h1 {
     margin-bottom: 0px;
     line-height: 28px;
     padding: 14px;
-    background: url("../assets/images/grey_wash_wall.png");
+    background: url('../assets/images/grey_wash_wall.png');
     color: white;
     font-style: bold;
     font-size: 28px;
@@ -200,7 +200,6 @@ table {
     margin: 0;
 }
 
-
 .projectImage {
     height: 190px;
     width: 150px;
@@ -250,7 +249,7 @@ form {
     margin-top: 16px;
 }
 
-input[type=text] {
+input[type='text'] {
     width: 100%;
     padding: 6px 6px;
     margin: 8px 0;
@@ -261,7 +260,7 @@ input[type=text] {
     color: grey;
 }
 
-input [type=submit] {
+input [type='submit'] {
     padding: 6px 6px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -303,7 +302,6 @@ canvas {
     vertical-align: bottom;
 }
 
-
 /* ---- particles.js container ---- */
 
 #particles-js {
@@ -317,7 +315,6 @@ canvas {
     background-position: 50% 50%;
     z-index: -1;
 }
-
 
 /* ---- stats.js ---- */
 
@@ -336,8 +333,8 @@ canvas {
     top: 48px;
     left: 0;
     width: 80px;
-    color: #13E8E9;
-    font-size: .8em;
+    color: #13e8e9;
+    font-size: 0.8em;
     text-align: left;
     text-indent: 4px;
     line-height: 14px;
@@ -364,27 +361,22 @@ canvas {
     border-radius: 0 0 3px 3px;
 }
 
-
 @media screen and (max-width: 1024px) {
     body {
-      
         position: relative;
-      
-       
     }
 
     html {
-    position: relative;
-    min-height: 100%;
-    width: 100%;
-}
-    
-    
+        position: relative;
+        min-height: 100%;
+        width: 100%;
+    }
+
     #mainContent {
-  background: url("../assets/images/grey_wash_wall.png");    
+        background: url('../assets/images/grey_wash_wall.png');
         height: 540px;
         width: 100%;
-        margin:auto;
+        margin: auto;
         border-width: 24px;
         padding-left: 0px;
     }
@@ -394,7 +386,7 @@ canvas {
     #mainBody {
         width: 70%;
         height: 1010px;
-        margin-left:8%;
+        margin-left: 8%;
         border: hidden;
     }
     #headerMenu {
@@ -413,11 +405,10 @@ canvas {
         display: block;
         max-width: 230px;
         text-align: center;
-        
     }
     h2 {
         float: left;
-        margin-left: 26%
+        margin-left: 26%;
     }
     footer {
         width: 110%;
@@ -426,83 +417,70 @@ canvas {
         text-align: center;
     }
 
-    
     #sidebar {
         display: block;
         position: absolute;
-        left:30%;
-        bottom:80px;
+        left: 30%;
+        bottom: 80px;
         height: 300px;
         width: 50%;
-      
+
         margin-top: 94px;
         padding-right: 18px;
         padding-bottom: 18px;
     }
 
-     #sidebarMenu {
+    #sidebarMenu {
         display: block;
         position: absolute;
-        width:280px;
-        left:0px;
-        bottom:-150px;
+        width: 280px;
+        left: 0px;
+        bottom: -150px;
         margin-top: 44px;
         padding-left: 18px;
         padding-bottom: 28px;
-        
     }
-    .logoButtons{
-      clear: right;
-        height:15%;
+    .logoButtons {
+        clear: right;
+        height: 15%;
         width: 15%;
-      
     }
-   
 
-    .headshot{
-        clear:right;
-        height:30%;
+    .headshot {
+        clear: right;
+        height: 30%;
         width: 30%;
 
-        margin-bottom:110px;
+        margin-bottom: 110px;
     }
-
-
-   
 }
-
 
 @media screen and (max-width: 850px) {
     body {
-      
         position: relative;
-      
-       
     }
-    
-    html {
-    position: relative;
-    min-height: 100%;
-    width: 100%;
-}
-    
-    
-    #mainContent {
 
-  background: url("../assets/images/grey_wash_wall.png");    
+    html {
+        position: relative;
+        min-height: 100%;
+        width: 100%;
+    }
+
+    #mainContent {
+        background: url('../assets/images/grey_wash_wall.png');
         height: 1010px;
         width: 100%;
-        margin:auto;
+        margin: auto;
         border-width: 24px;
         padding-left: 0px;
     }
     hr {
         visibility: hidden;
     }
-     #mainBody {
+    #mainBody {
         width: 74%;
         height: 1510px;
-        margin-left:8%;
+        margin-left: 8%;
         border: hidden;
     }
     #headerMenu {
@@ -521,11 +499,10 @@ canvas {
         display: block;
         max-width: 230px;
         text-align: center;
-        
     }
     h2 {
         float: left;
-        margin-left: 6%
+        margin-left: 6%;
     }
     footer {
         width: 110%;
@@ -534,80 +511,70 @@ canvas {
         text-align: center;
     }
 
-    
     #sidebar {
         display: block;
         position: absolute;
-        left:30%;
-        bottom:100px;
+        left: 30%;
+        bottom: 100px;
         height: 300px;
         width: 45%;
-      
+
         margin-top: 94px;
         padding-right: 10px;
-         padding-left: 10px;
+        padding-left: 10px;
         padding-bottom: 18px;
     }
     #sidebarMenu {
         display: block;
         position: absolute;
-        width:220px;
-       
-        bottom:-150px;
+        width: 220px;
+
+        bottom: -150px;
         margin-top: 44px;
         padding-left: 0px;
         padding-bottom: 28px;
-        
-        
     }
-    .logoButtons{
-      clear: left;
-        height:15%;
+    .logoButtons {
+        clear: left;
+        height: 15%;
         width: 15%;
-      
     }
-   
 
-    .headshot{
-        clear:left;
-        height:30%;
+    .headshot {
+        clear: left;
+        height: 30%;
         width: 30%;
 
-        margin-bottom:110px;
+        margin-bottom: 110px;
     }
 }
 
 @media screen and (max-width: 786px) {
     body {
-      
         position: relative;
-      
-       
     }
-    
-    html {
-    position: relative;
-    min-height: 100%;
-    width: 100%;
-}
-    
-    
-    #mainContent {
 
-  background: url("../assets/images/grey_wash_wall.png");    
+    html {
+        position: relative;
+        min-height: 100%;
+        width: 100%;
+    }
+
+    #mainContent {
+        background: url('../assets/images/grey_wash_wall.png');
         height: 1410px;
         width: 80%;
-        margin:auto;
+        margin: auto;
         border-width: 24px;
         padding-left: 0px;
     }
     hr {
         visibility: hidden;
     }
-     #mainBody {
+    #mainBody {
         width: 70%;
         height: 1810px;
-        margin-left:auto;
+        margin-left: auto;
         border: hidden;
     }
     #headerMenu {
@@ -621,66 +588,59 @@ canvas {
         float: left;
         clear: left;
         margin-left: 0px;
-        padding-left: 8%;
+        padding-left: 0px;
     }
     h1 {
-        margin-left: 18%;
+        margin-left: 10%;
         display: block;
         max-width: 230px;
         text-align: center;
-        
     }
     h2 {
         float: left;
-        margin-left: 4%
+        margin-left: 14%;
     }
     footer {
         width: 118%;
         margin-left: -40px;
         bottom: 0px;
         text-align: center;
-        }
+    }
 
-    
     #sidebar {
         display: block;
         position: absolute;
-        left:10%;
-        bottom:55px;
-        height: 280px;
+        left: 10%;
+        bottom: 55px;
+        height: 276px;
         width: 70%;
-      
-        margin-top: 94px;
+        margin-top: 4px;
         padding-right: 10px;
-         padding-left: 10px;
+        padding-left: 10px;
         padding-bottom: 18px;
     }
     #sidebarMenu {
         display: block;
         position: absolute;
-        width:200px;
-       
-        bottom:-150px;
-        margin-top: 44px;
+        width: 200px;
+        bottom: -40px;
+        margin-top: 4px;
         padding-left: 0px;
-        padding-bottom: 28px;
-        
-        
+        padding-bottom: 0px;
+        margin-left: -10px;
     }
-    .logoButtons{
-      clear: left;
-        height:15%;
+    .logoButtons {
+        clear: left;
+        height: 15%;
         width: 15%;
-      
     }
-   
 
-    .headshot{
-        clear:left;
-        height:30%;
+    .headshot {
+        clear: left;
+        height: 30%;
         width: 30%;
+        margin-top: 9px;
 
-        margin-bottom:110px;
+        margin-bottom: 24px;
     }
 }
-
