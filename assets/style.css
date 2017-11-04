@@ -1,4 +1,7 @@
 /* ---- reset ---- */
+* {
+    box-sizing: border-box;
+}
 
 html {
     position: relative;
@@ -455,7 +458,7 @@ canvas {
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1080px) {
     body {
         position: relative;
     }

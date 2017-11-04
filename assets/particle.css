@@ -1,0 +1,38 @@
+#particles-js {
+	z-index: 1;
+}
+h1 {
+	color: white;
+}
+section {
+	background-color: none;
+}
+canvas {
+	position: absolute;
+	left: 2%;
+	top: 6px;
+	max-width: 96%;
+	max-height: 98%;
+	z-index: -9;
+}
+
+p {
+	color: white;
+}
+
+div.subheading {
+	color: orange;
+}
+
+span.text-primary {
+	color: orange;
+}
+i {
+	color: white;
+}
+i.fa-inverse {
+	background-color: darkgrey;
+}
+h2 {
+	color: orange;
+}
