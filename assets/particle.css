@@ -12,9 +12,10 @@ canvas {
 	left: 2%;
 	top: 6px;
 	max-width: 97%;
-	max-height: 19%;
+	max-height: 100%;
 	z-index: -9;
 	padding-left: 260px;
+	opacity: 0.3;
 }
 
 p {
