@@ -104,12 +104,24 @@ section.resume-section {
     padding-bottom: 3rem !important; } }
 
 .bg-primary {
-  background-color: #bd5d38 !important; }
+  background-color: #36374a !important; }
 
 .text-primary {
-  color: #bd5d38 !important; }
+  color: #603942 !important; }
 
 a {
   color: #bd5d38; }
   a:hover, a:focus, a:active {
-    color: #824027; }
+    color: #16161e; }
+
+body {
+  background-color: #e2b9b4 !important; }
+
+h3 {
+  color: #603942 !important; }
+
+.mb-3 {
+  color: white !important; }
+
+p {
+  color: #603942 !important; }
