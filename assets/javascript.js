@@ -13,7 +13,7 @@ particlesJS('particles-js', {
       value: '#ffffff'
     },
     shape: {
-      type: 'circle',
+      type: 'image',
       stroke: {
         width: 0,
         color: '#000000'
@@ -22,13 +22,13 @@ particlesJS('particles-js', {
         nb_sides: 5
       },
       image: {
-        src: 'img/github.svg',
+        src: './assets/images/aclusteranda.jpg',
         width: 100,
         height: 100
       }
     },
     opacity: {
-      value: 0.5,
+      value: 1,
       random: false,
       anim: {
         enable: false,
@@ -38,7 +38,7 @@ particlesJS('particles-js', {
       }
     },
     size: {
-      value: 3,
+      value: 70,
       random: true,
       anim: {
         enable: false,
@@ -51,7 +51,7 @@ particlesJS('particles-js', {
       enable: true,
       distance: 150,
       color: '#ffffff',
-      opacity: 1,
+      opacity: 0.01,
       width: 2
     },
     move: {

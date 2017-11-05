@@ -7,7 +7,7 @@
 }
 
 a {
-	color: $primary;
+	color: white;
 	&:hover,
 	&:focus,
 	&:active {
@@ -27,6 +27,18 @@ h3 {
 	color: white !important;
 }
 
+.mb-0 {
+	color: white !important;
+}
+.mb-5 {
+	color: #36374a !important;
+}
+
 p {
-	color: #603942 !important;
+	color: #36374a !important;
+	font-size: 22px;
+}
+
+h1 {
+	color: #36374a !important;
 }

@@ -26,4 +26,16 @@ i {
 	color: white;
 }
 
+@media (max-width: 1000px) {
+	canvas {
+		/*visibility: hidden;*/
 
+		left: 2%;
+		top: 6px;
+		z-index: -9;
+		padding-left: 0px;
+		opacity: 0.3;
+		position: absolute;
+		
+		
+}
