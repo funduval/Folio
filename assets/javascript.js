@@ -3,17 +3,17 @@
 particlesJS('particles-js', {
   particles: {
     number: {
-      value: 200,
+      value: 1,
       density: {
         enable: true,
-        value_area: 800
+        value_area: 9
       }
     },
     color: {
       value: '#ffffff'
     },
     shape: {
-      type: 'image',
+      type: 'circle',
       stroke: {
         width: 0,
         color: '#000000'
@@ -22,9 +22,10 @@ particlesJS('particles-js', {
         nb_sides: 5
       },
       image: {
-        src: './assets/images/aclusteranda.jpg',
+        src: './assets/images/major-tom2.png',
         width: 100,
-        height: 100
+        height: 80,
+        border: 50
       }
     },
     opacity: {
@@ -38,11 +39,11 @@ particlesJS('particles-js', {
       }
     },
     size: {
-      value: 70,
+      value: 150,
       random: true,
       anim: {
         enable: false,
-        speed: 40,
+        speed: 80,
         size_min: 0.1,
         sync: false
       }
@@ -56,7 +57,7 @@ particlesJS('particles-js', {
     },
     move: {
       enable: true,
-      speed: 0.9,
+      speed: 3,
       direction: 'none',
       random: false,
       straight: false,

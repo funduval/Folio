@@ -120,6 +120,9 @@ body {
 h3 {
   color: #603942 !important; }
 
+.subheading {
+  color: #36374a !important; }
+
 .mb-3 {
   color: white !important; }
 
@@ -134,7 +137,7 @@ h3 {
 
 p {
   color: #36374a !important;
-  font-size: 22px; }
+  font-size: 22px !important; }
 
 h1 {
   color: #36374a !important; }
