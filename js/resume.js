@@ -1,3 +1,5 @@
+window.particlesJS(this.container, this.config);
+
 (function($) {
   'use strict'; // Start of use strict
 
