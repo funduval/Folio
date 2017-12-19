@@ -1,8 +1,6 @@
-window.particlesJS(this.container, this.config);
-
 (function($) {
   'use strict'; // Start of use strict
-
+  window.particlesJS(this.container, this.config);
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (
