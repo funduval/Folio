@@ -6,7 +6,7 @@ particlesJS('particles-js', {
       value: 1,
       density: {
         enable: true,
-        value_area: 50
+        value_area: 10
       }
     },
     color: {
